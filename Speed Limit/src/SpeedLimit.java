@@ -15,6 +15,7 @@ public class SpeedLimit {
             		linea = null;
             	}else {
             		int n = Integer.parseInt(linea);
+            		System.out.println(n);
             		int s[] = new int [n];
             		int t[] = new int [n];
             		int res=0;

@@ -19,7 +19,7 @@ public class SymmetricOrder {
 	                        linea = br.readLine();
 	                        nom[i] = linea;
 	                    }
-	            		for(int i = 0; i< n ; i++) {
+	            	/*	for(int i = 0; i< n ; i++) {
 	            			for(int j = i+ 1; j < n; j++) {
 		            			if(nom[i].length() > nom[j].length()) {
 		            				aux = nom[i];
@@ -27,9 +27,9 @@ public class SymmetricOrder {
 		            				nom[j] = aux;
 		            			}
 		            		}
-	            		}
+	            		}*/	
 	            		if (n%2==0) {
-	            			for (int i = 0; i<= n-1;){
+	            			for (int i = 0; i< n;){
 		            			System.out.println(nom[i]);
 		            			i = i + 2;
 		                    }
@@ -38,7 +38,7 @@ public class SymmetricOrder {
 		            			i = i - 2;
 		                    }
 	            		}else {
-	            			for (int i = 0; i< n;){
+	            			for (int i = 0; i<= n;){
 		            			System.out.println(nom[i]);
 		            			i = i + 2;
 		                    }
